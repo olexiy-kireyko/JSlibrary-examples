@@ -1,0 +1,57 @@
+
+  <!doctype>
+  <html lang="en">
+  <head>
+    <title>SVG Sprite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <style>
+      html { box-sizing: border-box }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",
+          "Oxygen","Ubuntu","Cantarell","Fira Sans",
+          "Droid Sans","Helvetical Neue",sans-serif;
+        font-size: 1.125rem;
+        text-align: center
+      }
+      h1{
+        font-weight: 100;
+        margin-bottom: 1em
+      }
+      small { font-size: .34em }
+      width: 50px; 
+height: 50px;
+margin: .5em;
+    </style>
+  </head>
+    
+  <body>
+    <!-- SVG Sprite -->
+    <svg width="0" height="0" class="hidden">
+  <symbol aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 undefined undefined" id="symbol-defs">
+    <defs>
+      <symbol id="icon-pushpin" viewBox="0 0 32 32">
+        <path d="M17 0l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 7-7 2 2-7 7z"></path>
+      </symbol>
+      <symbol id="icon-location" viewBox="0 0 32 32">
+        <path d="M16 0c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM16 16c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path>
+      </symbol>
+      <symbol id="icon-compass" viewBox="0 0 32 32">
+        <path d="M17 32c-0.072 0-0.144-0.008-0.217-0.024-0.458-0.102-0.783-0.507-0.783-0.976v-15h-15c-0.469 0-0.875-0.326-0.976-0.783s0.129-0.925 0.553-1.123l30-14c0.381-0.178 0.833-0.098 1.13 0.199s0.377 0.749 0.199 1.13l-14 30c-0.167 0.358-0.524 0.577-0.906 0.577zM5.508 14h11.492c0.552 0 1 0.448 1 1v11.492l10.931-23.423-23.423 10.931z"></path>
+      </symbol>
+    </defs>
+  </symbol>
+</svg>
+    <h1>
+      SVG Sprite Demo
+      <br/>
+      <small>
+        created with <a href="https://svgsprit.es/">svgsprit.es</a>
+      </small>
+    </h1>
+    <svg class="icon">
+  <use xlink:href="#symbol-defs"></use>
+</svg>
+  </body>

@@ -5,24 +5,232 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/page2.css" />
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-act="active"
-    />
+    <header class="my-header">
+     <div class="header-wrapper">
+        <h4>LOGO</h4>
+        <ul class="list-item">
+          <li>AAAAA</li>
+          <li>BBBBB</li>
+          <li>CCCCC</li>
+        </ul>
+        <div class="wrapper-list"><button class="my-btn" type="button">click for more</button>
+        </div>
+     </div>
+      <ul class="list-item-hidden">
+        <li class="item-hidden">AAAAA</li>
+        <li class="item-hidden">BBBBB</li>
+        <li class="item-hidden">CCCCC</li>
+      </ul>
 
+    </header>
     <main>
-      <div class="container">
-        <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span> to page 2
-        </h1>
-        <load src="./partials/back-link.html" />
-      </div>
-    </main>
+      <a href="./page-3.html">page 3</a>
+      <h1 class="main-title">
+        <span class="main-title-gradient">Welcome</span> to page 2
+      </h1>
 
-    <load src="./partials/footer.html" />
+      <section>
+        <p>swiper parallax</p>
+        <div class="swiper mySwiper">
+          <div class="parallax-bg" data-swiper-parallax="-23%"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="title" data-swiper-parallax="-300">Slide 1</div>
+              <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+              <div class="text" data-swiper-parallax="-100">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                  dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                  laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                  justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh
+                  euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                  ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                  tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="title" data-swiper-parallax="-300">Slide 2</div>
+              <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+              <div class="text" data-swiper-parallax="-100">
+                <p>
+                  ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                  dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                  laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                  justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh
+                  euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                  ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                  tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="title" data-swiper-parallax="-300">Slide 3</div>
+              <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+              <div class="text" data-swiper-parallax="-100">
+                <p>
+                  dolor sit amet, consectetur adipiscing elit. Aliquam dictum
+                  mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet
+                  justo vitae porttitor porttitor. Suspendisse in sem justo.
+                  Integer laoreet magna nec elit suscipit, ac laoreet nibh
+                  euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                  ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                  tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next btn-next">
+            <svg class="svg-btn-next" width="30" height="30">
+              <use href="./img/demo.svg#icon-compass"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-prev btn-prev">
+            <svg class="svg-btn-prev" width="30" height="30">
+              <use href="./img/demo.svg#icon-compass"></use>
+            </svg>
+          </div>
+          <div class="swiper-pagination">
+            <div class="swiper-pagination-bullet sw">
+              <svg class="pagination-dot" width="20" height="20">
+                <use href="./img/demo.svg#icon-location"></use>
+              </svg>
+              <div class="swiper-pagination-bullet sw">
+              <svg class="pagination-dot" width="20" height="20">
+                <use href="./img/demo.svg#icon-location"></use>
+              </svg>
+              <div class="swiper-pagination-bullet sw">
+              <svg class="pagination-dot" width="20" height="20">
+                <use href="./img/demo.svg#icon-location"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+
+<p>swiper cards</p>
+
+      <section class="cards">
+        <div class="swiper card-swiper">
+          <div class="swiper-wrapper card-swiper-wrapper">
+            <div class="swiper-slide card-swiper-slide">
+              Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Harum voluptatem eius laudantium odio tempora corporis sunt porro
+              praesentium itaque rem, repudiandae veritatis atque voluptates ut
+              accusamus obcaecati officia quisquam labore.
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 3Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 4Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 5Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 6Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 7Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 8 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+            <div class="swiper-slide card-swiper-slide">
+              Slide 9 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Totam tempore sed facilis eum dolore eveniet non cupiditate numquam
+              sunt autem a quasi incidunt consectetur deleniti labore saepe,
+              doloribus earum. Iste?
+            </div>
+          </div>
+  <!-- 
+          <div class="swiper-pagination my-swiper-pagination"></div>
+  
+          <div class="swiper-button-prev my-swiper-button-prev"></div>
+          <div class="swiper-button-next my-swiper-button-next"></div> -->
+  
+        </div>
+        
+      </section>
+     
+    </main>
+<footer>
+   <section class="mater">
+    <div class="container">
+      <div class="card-panel">
+      <span class="blue-text purple lighten-3">This is a card panel with dark blue text</span>
+    </div>
+       <div class="row">
+      <div class="col s3">1</div>
+      <div class="col s3">2</div>
+      <div class="col s3">3</div>
+      <div class="col s3">4</div>
+      <div class="col s3">5</div>
+      <div class="col s3">6</div>
+      <div class="col s3">7</div>
+      <div class="col s3">8</div>
+      <div class="col s3">9</div>
+      
+    </div>
+    <a class="btn-floating pulse"><i class="material-icons">menu</i></a>
+<a class="btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
+<a class="btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+    </div>
+   <div class="card">
+    <div class="card-content">
+      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+    </div>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a href="#test4">Test 1</a></li>
+        <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+        <li class="tab"><a href="#test6">Test 3</a></li>
+      </ul>
+    </div>
+    <div class="card-content grey lighten-4">
+      <div id="test4">Test 1</div>
+      <div id="test5">Test 2</div>
+      <div id="test6">Test 3</div>
+    </div>
+  </div>
+  </section>
+
+      <!-- <div class="container">
+        
+      </div> -->
+</footer>
+  
   </body>
+  
+  <script type="module" src="./js/page2.js"></script>
 </html>
